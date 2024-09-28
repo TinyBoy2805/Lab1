@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="nav1">
+        <h2 onclick="reloadPage()">MyWebsite</h2>
+        <div id="tab-container">
+            <a class="nav-tab active" href="#">HOME</a>
+            <a class="nav-tab" href="#">LAB1</a>
+            <a class="nav-tab" href="#">ABOUT</a>
+            <div id="tabline"></div>
+        </div>
+    </nav>
+
+    <div class="contents-container">
+        <div class="content-item active">
+            <img id="tree" src="imgs/tree-removebg-preview.png" alt="tree">
+            <img id="tree2" src="imgs/tree-removebg-preview.png" alt="tree">
+            <img id="tree3" src="imgs/tree-removebg-preview.png" alt="tree">
+            <img id="tree4" src="imgs/tree-removebg-preview.png" alt="tree">
+            <img id="tree5" src="imgs/tree-removebg-preview.png" alt="tree">
+
+        </div>
+
+        <div class="content-item ">
+            <nav id="nav2">
+                <a class="nav2-tab active" href="#"><ion-icon name="paper"></ion-icon></a>
+                <a class="nav2-tab" href="#"><ion-icon name="brush"></ion-icon></a>
+                <a class="nav2-tab" href="#"><ion-icon name="cog"></ion-icon></a>
+            </nav>
+
+            <div class="nav2-content">
+                <div class="nav2-tab-content active">
+                   
+                    <div id="p-container">
+                        <p id="p1"> Yêu cầu:</p>
+                        <p id="p2"> Chọn 1 đối tượng bất kỳ trong thế giới thực,
+                            ví dụ như lớp môn học, giảng viên,...
+                            Sau đó thiết kế chức năng Quản lý đối tượng đó trên html bao gồm 
+                            các tính năng thêm, sửa, xóa, tìm kiểm cho đối tượng đó.</p>
+                        <p id="p3"> Ví dụ: làm chức năng Quản lý Sinh viên, bao gồm tính năng thêm, sửa, xóa, tìm kiếm. </p>
+                        <p id="p4"> Chú ý:</p>
+                        <p id="p5"> Các thành viên trong nhóm không được chọn các đối tượng giống nhau.</p>
+                    </div>
+                    
+                </div>
+
+
+                <div class="nav2-tab-content">
+                    <div class="design-content">
+                        <div>My design</div>
+                        <li><a href="imgs/paperDesign.jpg" alt="hello">Thiết kế trên giấy</a> <span>(Ctrl + Click to open)</span></li>
+                        <li><a href="imgs/htmlDesign2.jpg">Thiết kế trên html</a> <span>(Ctrl + Click to open)</span></li>
+                    </div>
+                </div>
+
+
+                <div class="nav2-tab-content">
+                    <div class="implement-content">
+                           <div class="form-container">
+
+                                <label >Tên cây</label>
+                                <input type="text">
+
+                                <label >Loại cây</label>
+                                <input type="text">
+
+                                <label >Chiều cao</label>
+                                <input type="text">
+
+                                <label >Ngày trồng</label>
+                                <input type="date">
+
+                                <label >Tuổi</label>
+                                <input type="text">
+
+                                <button id="addBtn">Add</button>
+
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>STT</th>
+                                            <th>Tên Cây</th>
+                                            <th>Loại Cây</th>
+                                            <th>Chiều Cao (cm)</th>
+                                            <th>Tuổi (năm)</th>
+                                            <th>Ngày Trồng</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+
+                           </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-item">
+            <div class="about-container">
+                <img id="treea" src="imgs/tree-removebg-preview.png" alt="tree">
+                <img id="treeb" src="imgs/tree-removebg-preview.png" alt="tree">
+                <img id="treec" src="imgs/tree-removebg-preview.png" alt="tree">
+                <img id="treed" src="imgs/tree-removebg-preview.png" alt="tree">
+                <img id="treee" src="imgs/tree-removebg-preview.png" alt="tree">
+                <img id="treef" src="imgs/tree-removebg-preview.png" alt="tree">
+                
+                <div class="img-container">
+                    <img src="https://i.pinimg.com/564x/68/8c/55/688c5587ad2cfad12235539ce886a4fd.jpg" alt="avatar">
+                </div>
+                <h2>Nguyễn Thành Phát</h2>
+                <h2>MSSV: 23130231</h2>
+                <div class="iconBox">
+                    <a id="a1" href="https://www.facebook.com/TinyBoy28/"><ion-icon name="logo-facebook"></ion-icon></ion-icon></a>
+                    <a id="a2" href="https://github.com/TinyBoy2805"><ion-icon name="logo-github"></ion-icon></ion-icon></a>
+                </div>
+              
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+
+
+
+
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="main.js" defer></script>
+</html>
